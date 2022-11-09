@@ -1,0 +1,8 @@
+SELECT *
+						FROM ingredientes i, recetas r 
+          				WHERE r.id_receta = i.id_receta
+						AND receta LIKE ?
+						AND ingrediente LIKE ?
+						AND cantidad LIKE ?
+						AND unidad LIKE ?
+						
